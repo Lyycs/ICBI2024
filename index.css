@@ -106,8 +106,19 @@ a:hover{
 	margin:20px auto 10px;
 	width:850px;
 }
+#pdff{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	/* 本文余白 見出し余白はネガティブマージンで設定する*/
+	height: 800px;
+	width: 800px;
+	padding:20px 50px 0;
+	margin-bottom:20px;
+	font-size:108%;
+}
 #contents{
-	text-align:left;
+	text-align: left;
 	/* 本文余白 見出し余白はネガティブマージンで設定する*/
 	padding:20px 70px 0;
 	margin-bottom:20px;
@@ -259,6 +270,17 @@ ul.list02 li{
 	 background:url(Pictures/logoo.gif) no-repeat;
 	 background-size: 100% 100%;
  }
+ .logo_imgsch{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	width:650px;
+	height:600px;
+    src: "Pictures/scsc.pdf";
+	
+	background-size: 100% 100%;
+	
+}
  .logo_img h1{
      text-align: center;
      font-size: 28px;
