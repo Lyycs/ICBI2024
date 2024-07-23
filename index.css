@@ -111,7 +111,7 @@ a:hover{
     justify-content: center;
     align-items: center;
 	/* 本文余白 見出し余白はネガティブマージンで設定する*/
-	height: 800px;
+	height: 720px;
 	width: 800px;
 	padding:20px 50px 0;
 	margin-bottom:20px;
